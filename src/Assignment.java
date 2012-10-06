@@ -1,5 +1,5 @@
 import java.util.Date;
-
+// Yuemin Ding, 10/6/2012
 public class Assignment {
 
 	public static void main(String[] args) {
@@ -10,7 +10,8 @@ public class Assignment {
 		Task aTask2 = new Task();
 		System.out.println(aTask2);
 	} //end of main()
-
+	
+// getElement() has not been used yet
     public static String getElement(String values[], int index) {
     	if(index >=0 && index<=values.length) {
     		return values[index];
@@ -20,6 +21,7 @@ public class Assignment {
     	}
     } // end of getElement()
 } // end of class Assignment
+
 class Task {
 	String title;
 	String desc;
@@ -36,5 +38,6 @@ class Task {
 	    //this.date = toDay;
 	}
 	public String toString(){
-		return "Task(\nTitle: "+ title + ". \nDescription: "+desc +". \nCreated at: " +date.toString()+"\n)\n";
-	}} //end of Task
+			return "Task(\nTitle: "+ title + ". \nDescription: "+desc +". \nCreated at: " +date.toString()+"\n)\n";
+	}
+} //end of Task
