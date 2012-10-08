@@ -23,9 +23,9 @@ public class Assignment {
 } // end of class Assignment
 
 class Task {
-	String title;
-	String desc;
-	Date date = new Date();
+	private String title;
+	private String desc;
+	private Date date = new Date();
 	Task(String title, String desc, Date date){
 		this.title = title;
 	    this.desc = desc;
