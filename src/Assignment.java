@@ -12,7 +12,7 @@ public class Assignment {
 	} //end of main()
 	
 // getElement() has not been used yet
-    public static String getElement(String values[], int index) {
+    public static String getElement(String[] values, int index) {
     	if(index >=0 && index<=values.length) {
     		return values[index];
     	} 
